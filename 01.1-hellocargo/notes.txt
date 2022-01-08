@@ -1,0 +1,42 @@
+01.1 - Hello Cargo
+
+Cargo:
+
+Rust system and package manager.
+
+Setup - cargo new project_name
+
+Cargo.toml:
+
+TOML - Tom's Obvious, Minimal Language
+=> Cargo configuration format
+
+[package] => following statements configure a package
+e.g. name, version, edition (needed to compile)
+
+[dependencies] => list project dependencies
+crate = package of code
+
+src:
+
+Where source files reside.
+
+
+Cargo Commands:
+
+cargo build - Creates executeable to run
+./target/debug/hello_cargo - executeable to run in terminal.
+
+cargo run - compile code and run the executable in a single command.
+
+cargo check - Checks code to ensure it compiles.
+
+* cargo check runs faster than cargo build because it does not produce an
+executeable. Good practise to run after adding code.
+
+
+
+
+Cargo.lock:
+
+Keeps track of exact versions of dependensies.

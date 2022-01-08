@@ -1,0 +1,24 @@
+01 - Hello World
+
+Compile & run:
+
+rustc filename.rs 
+./filename
+
+Comments:
+
+// Ignore by the compiler, used to explain code.
+
+main():
+
+The main function is the first block of code eun by the programmed when
+executed.
+
+
+* rustfmt
+
+Formatting tool for Rust programmes.
+
+Install - rustup component add rustfmt
+
+Run - cargo fmt
