@@ -1,0 +1,16 @@
+02 - Primitives
+
+Scalar Types:
+
+1 - Signed Integers => isize (i8, i32, i128) * non-negaitive integer only
+2 - Unsigned Integers => usize (u8, u32, u128) * any integer
+3 - Floating Point => f32, f64 * decimal point number
+4 - char => 'a' * single letter or character
+5 - boolean => bool * true/false
+6 - uint type () => empty tuple
+
+
+Compound Types:
+
+Arrays - [1, 2, 3]
+Tuples - (1, true)
